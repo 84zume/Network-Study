@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Http", "Http", "{4DF3978D-8CF7-4718-BF54-195A3D4EEFC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpServer", "HttpServer\HttpServer.csproj", "{C43EF255-EB9E-4AC7-B099-35A08187D524}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpServer.Test", "HttpServer.Test\HttpServer.Test.csproj", "{937FD088-D8FE-4D1A-BC2D-EB3528CF0780}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C43EF255-EB9E-4AC7-B099-35A08187D524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C43EF255-EB9E-4AC7-B099-35A08187D524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C43EF255-EB9E-4AC7-B099-35A08187D524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C43EF255-EB9E-4AC7-B099-35A08187D524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{937FD088-D8FE-4D1A-BC2D-EB3528CF0780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{937FD088-D8FE-4D1A-BC2D-EB3528CF0780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{937FD088-D8FE-4D1A-BC2D-EB3528CF0780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{937FD088-D8FE-4D1A-BC2D-EB3528CF0780}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C43EF255-EB9E-4AC7-B099-35A08187D524} = {4DF3978D-8CF7-4718-BF54-195A3D4EEFC9}
+		{937FD088-D8FE-4D1A-BC2D-EB3528CF0780} = {4DF3978D-8CF7-4718-BF54-195A3D4EEFC9}
+	EndGlobalSection
+EndGlobal
